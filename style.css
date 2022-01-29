@@ -1,6 +1,6 @@
 /* home section  */
 .home{
-     background: url(../assests/background_pic.png) blue;
+     background: url(./background_pic.png) blue;
      background-size:cover;
 }
 
@@ -39,7 +39,7 @@
 /* about section  */
 
 .about{
-    background: url(../assests/aboutBlue.png)blue;
+    background: url(./aboutBlue.png)blue;
     background-size:cover;
     padding-bottom: 2rem;
     width: 100vw;
