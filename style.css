@@ -1,0 +1,191 @@
+/* home section  */
+.home{
+     background: url(../assests/background_pic.png) blue;
+     background-size:cover;
+}
+
+.home > div > div > h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.home >div > div > h1{
+    font-size: 3rem;
+    color:#333;
+    margin: 2rem 0;
+    text-shadow: .1rem .1rem .1rem rgb(255, 255, 255,.9) ;
+
+}
+
+.home >div > div > h1> span {
+    color: blue;
+}
+
+.home > div > div > a > button {
+    height: 4rem;
+    width: 12rem;
+    background: #333;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    box-shadow: 0 .5rem 1rem rgba(51, 51, 51, .3);
+}
+
+
+
+/* about section  */
+
+.about{
+    background: url(../assests/aboutBlue.png)blue;
+    background-size:cover;
+    padding-bottom: 2rem;
+    width: 100vw;
+    height: 700px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    text-align: center;
+    align-self: center;
+    margin-bottom: 5px;
+    font-size: 3rem;
+    color:blue;
+    border-bottom: 2px solid blue;
+    margin: 2rem 0;
+    text-shadow: .1rem .1rem .1rem rgb(255, 255, 255,.9) ;
+}
+
+.progrssContainer{
+    display: flex;
+}
+
+.progrssContainer> img {
+    width: 40vw;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 480px) {
+    .progrssContainer> img{
+        display: none;
+    }
+  }
+
+.aboutProgress{
+    flex: 1;
+    display: flex;
+    flex-direction: column;    
+}
+
+
+
+/* progress bar  */
+.progress-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 10px;
+    text-align: left;
+}
+.progress-outer{
+    background: #fff;
+    padding: 5px 60px 5px 5px;
+    border: 3px solid #bebfbf;
+    border-radius: 45px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 50vw;
+}
+.progress{
+    background: #bebfbf;
+    border-radius: 20px;
+    margin: 0;
+}
+.progress .progress-bar{
+    border-radius: 20px;
+    box-shadow: none;
+    animation: animate-positive 2s;
+}
+.progress .progress-value{
+    font-size: 20px;
+    font-weight: 700;
+    color: #6b7880;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
+
+
+/* Projects css */
+
+.projects{
+    background-color: #4DB4FF;
+    width: auto;
+    height: 600px;
+    padding-top: 50px;
+}
+
+.projects > h2{
+    font-size: 2.5rem;
+    color:blue;
+    text-shadow: .1rem .1rem .1rem rgb(255, 255, 255,.9) ;
+}
+
+.cardMain{
+    display: flex;
+    justify-content: center;
+}
+
+.cardMain > div {
+    margin-left: 10px;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .cardMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects{
+        height: 1500px;
+    }
+    .card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .progress-outer{
+        width: 80vw;
+    }
+  }
+
+
+  /* Contact US */
+
+  form{
+      height: 500px;
+      padding: 50px;
+      background-color: #4DB4FF;
+      color: black;
+  }
+
+  form > h2{
+    font-size: 2.5rem;
+    color:blue;
+    text-shadow: .1rem .1rem .1rem rgb(255, 255, 255,.9) ;
+  }
+
+
+
+ 
+
+
